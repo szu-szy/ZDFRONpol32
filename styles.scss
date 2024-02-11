@@ -1,7 +1,7 @@
 // @import "bootstrap/scss/bootstrap";
-// @tailwind base;
-// @tailwind components;
-// @tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .wrapper {
   background-color: gray;
@@ -59,6 +59,7 @@ body {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 999;
 }
 
 .sticky-wrapper {
