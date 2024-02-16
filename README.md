@@ -4,7 +4,8 @@
 Nagłówek z logo/nazwą i nawigacją do pozostałych podstron.
 Sekcja powitalna z krótkim wprowadzeniem o sobie.
 Podgląd projektów lub umiejętności z linkami do szczegółów na osobnych podstronach.
-Podstrona 'O mnie' (About Me):
+
+# Podstrona 'O mnie' (About Me):
 
 Zdjęcie profilowe i opis Twojego doświadczenia zawodowego, edukacji i umiejętności.
 Możesz również dodać informacje o swoich zainteresowaniach lub pasjach.

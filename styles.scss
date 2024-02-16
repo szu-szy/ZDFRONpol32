@@ -1,7 +1,7 @@
 // @import "bootstrap/scss/bootstrap";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
 
 .wrapper {
   background-color: gray;
@@ -76,4 +76,17 @@ body {
   position: sticky;
   top: 50px;
   left: 0;
+}
+
+.grid-header {
+  font-size: 50px;
+}
+
+@font-face {
+  font-family: "Allura";
+  src: url("./fonts/Allura-Regular.woff") format("woff2"),
+    url("./fonts/Allura-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
