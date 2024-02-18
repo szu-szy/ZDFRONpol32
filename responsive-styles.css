@@ -1,0 +1,56 @@
+/* mobile first */
+
+/* mobilka */
+h1 {
+  font-size: 32px;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+/* laptop */
+@media (min-width: 992px) {
+  .header {
+    font-size: 60px;
+  }
+}
+
+/* dekstop */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 92px;
+  }
+}
+
+/* --- dekstop first */
+
+h2 {
+  font-size: 92px;
+}
+/* 992px-inf font-size: 92 */
+
+@media (max-width: 992px) {
+  h2 {
+    font-size: 60px;
+  }
+}
+/* 768px-992px font-size: 60 */
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 48px;
+  }
+}
+/* 568px-768px font-size: 48 */
+
+@media (max-width: 568px) {
+  h2 {
+    font-size: 32px;
+  }
+}
+
+/* 0-568px font-size: 32 */
