@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.scss" />
+    <link rel="stylesheet" href="./output.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./styles.scss" />
-  <link rel="stylesheet" href="./output.css" />
-  <script type="module" src="./index.js"></script>
-</head>
+  <body>
+    <header></header>
+    <main>
+      <h1 class="text-sm md:text-2xl font-customFont bg-porzeczkowy">
+        Responsywny header
+      </h1>
+    </main>
+    <footer></footer>
+    <ul class="nav bg-secondary-subtle">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
 
-<body>
-  <!-- ZAJECIA Z DNIA 10.02 -->
+    <!-- ZAJECIA Z DNIA 10.02 -->
 
-  <!-- <header class="header-fixed">
+    <!-- <header class="header-fixed">
     nasz header
   </header> -->
-  <!-- roznica miedzy h2-h6 -->
-  <!-- roznica miedzy <span>, <a>, <p> -->
-  <!-- span - krótki tekst -->
-  <!-- a - link -->
-  <!-- p - akapit/dlugi tekst -->
-  <!-- tagi semantyczne html5 -->
-  <!-- atl tag w img -->
+    <!-- roznica miedzy h2-h6 -->
+    <!-- roznica miedzy <span>, <a>, <p> -->
+    <!-- span - krótki tekst -->
+    <!-- a - link -->
+    <!-- p - akapit/dlugi tekst -->
+    <!-- tagi semantyczne html5 -->
+    <!-- atl tag w img -->
 
-  <!-- 1 -->
-  <!-- <label for="first-name">
+    <!-- 1 -->
+    <!-- <label for="first-name">
     Imie:
     <input type="checkbox" id="first-name">
   </label> -->
-  <!-- 2 -->
-  <!-- <div>
+    <!-- 2 -->
+    <!-- <div>
     <label for="">Nazwisko:</label>
     <input type="checkbox">
   </div>
@@ -62,28 +83,23 @@
     </div>
   </section> -->
 
-  <!-- ZAJECIA Z DNIA 11.02 -->
+    <!-- ZAJECIA Z DNIA 11.02 -->
 
-  <h1 class="p-4 text-3xl font-bold underline text-yellow-600">
-    Hello world!
-  </h1>
+    <!-- <h1 class="p-4 text-3xl font-bold underline text-yellow-600">
+      Hello world!
+    </h1> -->
 
-  <!-- Przyklad uzycia kontenerow -->
-  <header class="bg-violet-200">
-    <div class="container mx-auto">
-      <ul>
-        <li>link</li>
-      </ul>
-    </div>
-  </header>
-  <main class="container mx-auto">
-    main content
-  </main>
-  <footer class="bg-violet-200">
-    <div class="container mx-auto">
-      footer
-    </div>
-  </footer>
-</body>
-
+    <!-- Przyklad uzycia kontenerow -->
+    <!-- <header class="bg-violet-200">
+      <div class="container mx-auto">
+        <ul>
+          <li>link</li>
+        </ul>
+      </div>
+    </header>
+    <main class="container mx-auto">main content</main>
+    <footer class="bg-violet-200">
+      <div class="container mx-auto">footer</div>
+    </footer> -->
+  </body>
 </html>

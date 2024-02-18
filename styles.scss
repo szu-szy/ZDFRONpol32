@@ -1,4 +1,4 @@
-// @import "bootstrap/scss/bootstrap";
+@import "bootstrap/scss/bootstrap";
 // @tailwind base;
 // @tailwind components;
 // @tailwind utilities;
@@ -89,4 +89,12 @@ body {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+@font-face {
+  font-family: "Anta";
+  src: url("./fonts/Anta-Regular.woff") format("woff2"),
+    url("./fonts/Anta-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
