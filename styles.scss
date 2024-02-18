@@ -82,6 +82,49 @@ body {
   font-size: 50px;
 }
 
+// grid 18.02
+
+.grid-container {
+  display: grid;
+  // inicjowanie wierszy oraz kolumn
+  // wartosci dla tych właściwości definiuja nam liczbe kolumn/wierszy z szerokoscia lub wysokoscia
+  // grid-template-rows: 50px 80px 100px;
+  // funkcja do tworzenia wiekszej ilosci tych samych wartości
+  // grid-template-columns: repeat(3, 1fr);
+  // jednostka fr oznacza wypelnienie wolnej przestrzeni
+  // grid-template-columns: repeat(4, 1fr);
+  grid-template: 50px 80px 100px / repeat(5, 1fr);
+  // grid-template-areas:
+  //   "logo nav nav nav"
+  //   "main main . sidebar"
+  //   "footer footer footer .";
+  // place-items: center;
+}
+
+.grid-item-1 {
+  background-color: red;
+  grid-area: 1 / 1 / span 3 / span 2;
+  // grid-column: 3/6;
+  // grid-area: footer;
+}
+
+.grid-item-2 {
+  background-color: green;
+  grid-area: 3 / 3 / 4 / 6;
+  // grid-area: sidebar;
+}
+
+.grid-item-3 {
+  grid-area: 1 / 5 / span 1 / span 1;
+  background-color: blue;
+  // grid-area: nav;
+}
+
+.grid-item-4 {
+  background-color: aqua;
+  // grid-area: main;
+}
+
 @font-face {
   font-family: "Allura";
   src: url("./fonts/Allura-Regular.woff") format("woff2"),
